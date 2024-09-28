@@ -1,29 +1,37 @@
-@import "https://fonts.googleapis.com/css?family=Open+Sans:400,700%7COswald:400,700%7CDroid+Sans:400,700%7CRoboto:400,700%7CLato:400,700%7CPT+Sans:400,700%7CSource+Sans+Pro:400,600,700%7CNoto+Sans:400,700%7CPT+Sans:400,700%7CUbuntu:400,700%7CBitter:400,700%7CPT+Serif:400,700%7CRokkitt:400,700%7CDroid+Serif:400,700%7CRaleway:400,700%7CInconsolata:400,700";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,700|Source+Sans+Pro:400,600,700");
+
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   color: #333 !important;
   font-family: "Source Sans Pro", Helvetica, sans-serif !important;
+  background-color: #F4F6F9; /* Светло-серый фон */
 }
+
 .header {
-  background-color: red;
+  background-color: #4A90E2; /* Основной цвет */
   padding: 10px;
+  color: white;
 }
+
 .header .he1 {
   float: left;
   width: 50%;
 }
+
 .header .he1 img {
   vertical-align: middle;
 }
+
 .header .he2 {
   float: right;
   text-align: right;
   line-height: 60px;
-  color: white;
 }
+
 .duan {
   max-width: 1000px;
   padding: 10px;
@@ -31,50 +39,61 @@ body {
   margin-top: 30px;
   overflow: auto;
 }
+
 .d1 {
   float: left;
   width: 68.5%;
 }
+
 .d1 h1 {
   margin: 0;
   line-height: 1.2em;
   font-size: 40px;
 }
+
 .d2 {
   float: right;
   width: 28.5%;
   border: 1px solid #d3d1d1;
 }
+
 .zz {
   font-weight: 600;
   font-size: 12px;
 }
+
 .img {
   width: 100%;
 }
+
 p {
   font-size: 21px;
   line-height: 1.8em;
   margin-bottom: 20px;
-  font-family: "Source Sans Pro", Helvetica, sans-serif !important;
   font-weight: 400;
   letter-spacing: -0.3px;
 }
+
 h2 {
   font-size: 26px;
   text-transform: capitalize;
+  color: #4A90E2; /* Цвет заголовков */
 }
+
 .quote {
-  background: #85b7e64d;
+  background: rgba(133, 183, 230, 0.3);
   border: 1px dashed #0062ff96;
   text-align: center;
   padding: 20px;
 }
+
 a {
   font-weight: 600;
   text-decoration: none;
   font-size: 20px;
+  color: #4A90E2; /* Цвет ссылок */
 }
+
 .quote1 {
   border-left: 5px solid #8d8686;
   padding-left: 10px;
@@ -82,41 +101,51 @@ a {
   margin-bottom: 30px;
   margin-top: -10px;
 }
+
 .quote1 p {
   margin: 5px;
 }
+
 footer {
   background-color: #181717;
   color: #999;
   text-align: center;
   padding: 30px 20px;
 }
+
 footer a {
   font-weight: 400;
   color: white;
 }
+
 footer .container {
   max-width: 1000px;
   margin: auto;
 }
+
 footer .container p {
   font-size: 14px;
 }
+
 footer .container p a {
   font-size: 14px;
   color: #999;
 }
+
 .d2 {
   text-align: center;
   padding: 15px;
 }
+
 .d2 p {
   font-weight: 600;
 }
+
 .w_button {
-  background-color: red;
+  background-color: #D0021B; /* Цвет кнопки */
   border-radius: 10px;
 }
+
 .w_button a {
   color: white;
   display: block;
@@ -126,90 +155,107 @@ footer .container p a {
   width: 100%;
   border-bottom: 4px solid #a10909;
 }
+
 .w_button a:hover {
   background-color: #a10909;
 }
+
 .fl {
   overflow: hidden;
-  border: 2px dashed red;
+  border: 2px dashed #D0021B; /* Цвет обводки */
   padding: 10px;
   margin-bottom: 50px;
   border-radius: 5px;
 }
+
 .fl .quote2 {
   float: left;
   width: 50%;
 }
+
 .fl .quote2 p {
   padding: 10px;
   margin: 0;
 }
+
 @media screen and (max-width: 750px) {
   .d1 {
     width: 100% !important;
     float: none;
   }
+  
   .d2 {
     display: none;
   }
+  
   .he1 {
     width: 100% !important;
     text-align: center;
   }
+  
   .he2 {
     display: none;
   }
 }
+
 @media screen and (max-width: 550px) {
   .quote2 {
     width: 100% !important;
     float: none;
   }
+  
   .quote2 img {
     max-width: 291px;
     display: block;
     margin: auto;
   }
+  
   .he1 img {
     width: 75% !important;
   }
 }
 
-.blue-bg{
-	background-color: #E3F7FF;
-	padding: 30px;
+.blue-bg {
+  background-color: #E3F7FF; /* Пастельный фон */
+  padding: 30px;
 }
-.blue-bg li{
-	margin-bottom: 20px;
+
+.blue-bg li {
+  margin-bottom: 20px;
   margin-left: 20px;
   line-height: 1.5;
   font-size: 18px;
 }
 
-.item{
-	overflow: hidden;
-	margin: 20px auto;
+.item {
+  overflow: hidden;
+  margin: 20px auto;
 }
-.item img{
-float: left;
-max-width: 84px;
-margin-right: 20px;
-margin-top: 30px;
+
+.item img {
+  float: left;
+  max-width: 84px;
+  margin-right: 20px;
+  margin-top: 30px;
 }
-.item p span{
-font-weight: 700;
-display: block;
+
+.item p span {
+  font-weight: 700;
+  display: block;
 }
-.item p{
-	float: right;
-width: 81%;
+
+.item p {
+  float: right;
+  width: 81%;
 }
-@media screen and (max-width:620px){
-	.item img,.item p{
-		float: none !important;
-		width: 100%;
-		text-align: center;
-		display: block;
-		margin: auto;
-	}
+
+@media screen and (max-width: 620px) {
+  .item img,
+  .item p {
+    float: none !important;
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
 }
